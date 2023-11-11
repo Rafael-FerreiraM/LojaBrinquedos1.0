@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f6f6f6;
+  font-family: 'Lato', sans-serif;
+}
+
+body > header {
+  background: #111 !important;
+  color: white;
+  font-size: 20px; /* Reduz o tamanho da fonte no cabeçalho */
+  padding: 15px 0; /* Reduz o preenchimento no cabeçalho */
+  display: flex;
+  justify-content: center;
+}
+
+body > main {
+  background: #fff;
+  padding: 0 20px 20px; /* Reduz o preenchimento na área principal */
+}
+
+body > main .page-title {
+  font-size: 32px; /* Reduz o tamanho da fonte no título da página */
+  padding: 30px 0; /* Reduz o preenchimento no título da página */
+  text-align: center;
+}
+
+body > main .content {
+  display: flex;
+}
+
+body > main .content section {
+  flex: 1;
+}
+
+body > main .content aside {
+  min-width: 200px; /* Reduz a largura da área lateral */
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px; /* Reduz o tamanho da fonte nos botões */
+  padding: 5px 10px; /* Ajusta o preenchimento dos botões */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead tr {
+  border-bottom: 1px solid #eee; /* Reduz a espessura da linha de cabeçalho */
+}
+
+table thead tr th {
+  text-align: left;
+  padding-bottom: 5px; /* Reduz o espaço abaixo do texto do cabeçalho */
+  text-transform: uppercase;
+  color: #666;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #eee; /* Reduz a espessura das linhas da tabela */
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table tbody tr td {
+  padding: 15px 0; /* Reduz o preenchimento nas células da tabela */
+}
+
+.product {
+  display: flex;
+  align-items: center; /* Centraliza os elementos do produto verticalmente */
+}
+
+.product img {
+  border-radius: 6px;
+}
+
+.product .info {
+  margin-left: 10px; /* Reduz a margem à esquerda */
+}
+
+.product .info .name {
+  font-size: 18px; /* Reduz o tamanho da fonte nos nomes de produtos */
+  margin-bottom: 5px; /* Reduz a margem abaixo do nome do produto */
+}
+
+.product .info .category {
+  color: #666;
+}
+
+
+.qty {
+  background: #eee;
+  display: inline-flex; /* Remove o espaço extra entre os elementos */
+  padding: 0;
+  justify-content: space-around;
+  min-width: 50px; /* Reduz a largura da área de quantidade */
+  border-radius: 15px; /* Reduz o raio da borda para um visual mais limpo */
+  overflow: hidden;
+  height: 25px; /* Reduz a altura */
+}
+
+.qty span {
+  margin: 0 5px; /* Reduz a margem dos elementos da quantidade */
+}
+
+.qty button {
+  display: flex;
+  align-items: center; /* Centraliza o conteúdo verticalmente nos botões de quantidade */
+  background: transparent;
+  border: 0;
+  padding: 0 5px; /* Reduz o preenchimento dos botões de quantidade */
+  font-size: 16px;
+  height: 100%;
+}
+
+.qty button:hover {
+  background: #ddd;
+}
+
+.remove {
+  background: #eee;
+  border: 0;
+  width: 25px; /* Reduz o tamanho do botão de remoção */
+  height: 25px; /* Reduz o tamanho do botão de remoção */
+  border-radius: 50%; /* Transforma o botão de remoção em um círculo */
+  display: flex;
+  align-items: center; /* Centraliza o conteúdo verticalmente no botão de remoção */
+  justify-content: center;
+  font-size: 16px;
+}
+
+.remove:hover {
+  background: #ddd;
+}
+
+aside {
+  margin-left: 20px; /* Reduz a margem lateral da área lateral */
+}
+
+aside .box {
+  margin-bottom: 10px; /* Reduz a margem inferior das caixas laterais */
+  border: 1px solid #ccc;
+  background: #eee;
+  color: #222;
+}
+
+aside .box header {
+  padding: 10px 15px; /* Reduz o preenchimento no cabeçalho da caixa */
+  font-size: 16px; /* Reduz o tamanho da fonte no cabeçalho da caixa */
+  border-bottom: 1px solid #ccc;
+}
+
+aside .box .info {
+  padding: 15px; /* Reduz o preenchimento no conteúdo da caixa */
+  font-size: 14px; /* Reduz o tamanho da fonte no conteúdo da caixa */
+}
+
+aside .box .info > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px; /* Reduz a margem inferior entre os elementos */
+  color: #555;
+}
+
+aside .box .info > div:last-child {
+  margin: 0;
+}
+
+aside .box .info button {
+  color: #28a745;
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center; /* Centraliza o conteúdo verticalmente nos botões */
+  font-size: 14px; /* Reduz o tamanho da fonte nos botões */
+}
+
+aside .box footer {
+  padding: 10px 15px; /* Reduz o preenchimento no rodapé da caixa */
+  font-size: 16px; /* Reduz o tamanho da fonte no rodapé da caixa */
+  display: flex;
+  justify-content: space-between;
+}
+
+aside > button {
+  border: 0;
+  padding: 10px 0; /* Reduz o preenchimento nos botões da área lateral */
+  color: white;
+  background: #28a745;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px; /* Reduz o tamanho da fonte nos botões */
+}
+
+aside > button:hover {
+  background: #3bc55b;
+}
+
+/* Estilize a mensagem */
+.message {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+/* Estilize a div .box */
+.box {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Aumenta a margem inferior das caixas */
+  max-width: 500px; /* Reduz a largura máxima das caixas */
+  width: 100%;
+}
+
+.box .info {
+  margin-top: 10px; /* Ajusta a margem superior do conteúdo da caixa */
+}
+
+.box .info div {
+  margin-bottom: 5px; /* Ajusta a margem inferior entre os elementos */
+}
+
+/* Estilo para os botões de cupom e ver cupons */
+.cupom-button, .cupom-link {
+  margin-top: 5px; /* Ajusta a margem superior dos botões de cupom */
+}
+
+/* Estilo para o botão "Pagar com Boleto" */
+.boleto-button, #pixButton, #cartaoButton {
+  font-size: 16px; /* Ajusta o tamanho da fonte nos botões de pagamento */
+  padding: 10px 20px; /* Ajusta o preenchimento dos botões de pagamento */
+  width: auto; /* Remove a largura fixa dos botões de pagamento */
+  border-radius: 5px;
+}
+
+/* Estilo para a imagem da logo */
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-width: 60px; /* Reduz o tamanho da imagem da logo */
+  height: auto;
+}
+
+/* Estilo para o título "Carrinho de compras" e ícone de carrinho */
+.page-title {
+  display: flex;
+  align-items: center;
+}
+
+.page-title i {
+  margin-right: 10px;
+  font-size: 20px; /* Reduz o tamanho do ícone do carrinho */
+}
+
+/* Estilo para o botão de voltar */
+.back-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para o botão "Cupons Disponíveis" */
+.cupom-link {
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cupom-link:hover {
+  background-color: #0056b3;
+}
+
+.address-container {
+  margin-top: 10px; /* Reduz a margem superior do contêiner de endereços */
+  flex-direction: column;
+}
+
+.address-label {
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+}
+
+.address-title {
+  font-weight: bold;
+  margin-bottom: 5px; /* Ajusta a margem inferior do título do endereço */
+}
+
+#cep {
+  font-weight: bold;
+  margin-left: 5px; /* Ajusta a margem à esquerda para o CEP */
+}
+
+#endereco-entrega {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 200px; /* Reduz a largura do campo de endereço de entrega */
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 5px; /* Ajusta a margem inferior do campo de endereço de entrega */
+}
+
+.total {
+  text-align: center;
+  font-size: 18px; /* Reduz o tamanho da fonte do total */
+  margin-top: 10px; /* Ajusta a margem superior do total */
+}
+
+.totalTitulo {
+  text-align: center;
+  font-size: 18px; /* Reduz o tamanho da fonte do título do total */
+  margin-top: 10px; /* Ajusta a margem superior do título do total */
+}
+
+.parcelas-text {
+  margin-left: 10px;
+}
+
+#buscar-cep {
+  margin-left: 5px; /* Ajusta a margem à esquerda para o botão "Buscar CEP" */
+}
+
+#endereco-entrega-text {
+  margin-left: 5px;
+  font-size: 12px; /* Reduz o tamanho da fonte do texto do endereço de entrega */
+  color: #333;
+  font-weight: bold;
+}
+
