@@ -30,4 +30,4 @@ Para ver a versão 2.0, acesse [LojaBrinquedos2.0](https://github.com/Rafael-Fer
 
 ## Licença
 
-Este projeto está sob a Licença Creative Commons Attribution-NoDerivs 3.0 Brasil - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está sob a Licença Creative Commons Attribution-NoDerivs 4.0 Brasil - veja o arquivo [LICENSE](LICENSE) para detalhes.
