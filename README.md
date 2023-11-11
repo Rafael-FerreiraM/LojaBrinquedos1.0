@@ -6,6 +6,8 @@ Este projeto foi feito por mim e pelo meu grupo da faculdade. Mas fiquei totalme
 ## Recursos Principais
 
 - **Catálogo de Brinquedos:** Três categorias de brinquedos e seis brinquedos disponíveis.
+  
+ - **Login e Cadastro:** Criar conta e logar com Dados via localStorage.
 
 - **Carrinho de Compras:** Adicione os brinquedos desejados ao carrinho de compras e finalize a compra de maneira conveniente.
 
@@ -24,8 +26,8 @@ npm install
 ## Versão 2.0 - Refatoração com Java, JSP, JavaScript Nativo, e MySQL
 
 Este projeto foi refatorado para a versão 2.0, incorporando tecnologias  Java, JSP, e JavaScript nativo. Agora a aplicação inclui um sistema de cadastro de brinquedos e utiliza um banco de dados MySQL para persistência de dados.
-Para VEr a versão 2.0, acesse [LojaBrinquedos2.0](https://github.com/Rafael-FerreiraM/LojaBrinquedos2.0).
+Para ver a versão 2.0, acesse [LojaBrinquedos2.0](https://github.com/Rafael-FerreiraM/LojaBrinquedos2.0).
 
 ## Licença
 
-Este projeto está sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está sob a Licença Creative Commons Attribution-NoDerivs 3.0 Brasil - veja o arquivo [LICENSE](LICENSE) para detalhes.
