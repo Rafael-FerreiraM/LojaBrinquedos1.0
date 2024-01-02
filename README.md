@@ -23,9 +23,9 @@ cd LojaBrinquedos1.0
 npm install
 
 
-## Versão 2.0 - Refatoração com Java, JSP, JavaScript Nativo, e MySQL
+## Versão 2.0 - Refatoração com PHP e MySQL
 
-Este projeto foi refatorado para a versão 2.0, incorporando tecnologias  Java, JSP, e JavaScript nativo. Agora a aplicação inclui um sistema de cadastro de brinquedos e utiliza um banco de dados MySQL para persistência de dados.
+Este projeto foi refatorado para a versão 2.0, incorporando tecnologia PHP. Agora a aplicação inclui um sistema de cadastro de brinquedos e utiliza um banco de dados MySQL para persistência de dados.
 Para ver a versão 2.0, acesse [LojaBrinquedos2.0](https://github.com/Rafael-FerreiraM/LojaBrinquedos2.0).
 
 ## Licença
